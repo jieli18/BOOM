@@ -12,7 +12,7 @@ eval_episodes: 10
 eval_pi: true
 eval_diffusion: false
 eval_value: false
-eval_freq: 50000
+eval_freq: 20000
 
 # training
 steps: 2_001_000 # env step = steps * action_repeat
